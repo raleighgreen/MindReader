@@ -42,6 +42,9 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.45882353190000003" green="0.4431372583" blue="0.97254902119999997" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EC1-Nm-L3r"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="25" borderStyle="roundedRect" textAlignment="center" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="k7a-Vp-IgF">
                                 <rect key="frame" x="103" y="582" width="169" height="40"/>
@@ -82,6 +85,10 @@
                             <constraint firstItem="gOz-Z9-Cdx" firstAttribute="top" secondItem="fji-pU-YE6" secondAttribute="bottom" constant="22" id="wDV-Dm-ccG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="answerTextField" destination="k7a-Vp-IgF" id="XmT-Ro-i1s"/>
+                        <outlet property="questionLabel" destination="p9Z-KD-Xtd" id="NXA-dZ-Kih"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
