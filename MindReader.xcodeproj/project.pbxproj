@@ -12,6 +12,7 @@
 		450B16391ED8A918002B283C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450B16371ED8A918002B283C /* Main.storyboard */; };
 		450B163B1ED8A918002B283C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450B163A1ED8A918002B283C /* Assets.xcassets */; };
 		450B163E1ED8A918002B283C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450B163C1ED8A918002B283C /* LaunchScreen.storyboard */; };
+		450B16461ED8AB3D002B283C /* MindReader.png in Resources */ = {isa = PBXBuildFile; fileRef = 450B16451ED8AB3D002B283C /* MindReader.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		450B163A1ED8A918002B283C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		450B163D1ED8A918002B283C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		450B163F1ED8A918002B283C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450B16451ED8AB3D002B283C /* MindReader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MindReader.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		450B16321ED8A918002B283C /* MindReader */ = {
 			isa = PBXGroup;
 			children = (
+				450B16451ED8AB3D002B283C /* MindReader.png */,
 				450B16331ED8A918002B283C /* AppDelegate.swift */,
 				450B16351ED8A918002B283C /* ViewController.swift */,
 				450B16371ED8A918002B283C /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450B16461ED8AB3D002B283C /* MindReader.png in Resources */,
 				450B163E1ED8A918002B283C /* LaunchScreen.storyboard in Resources */,
 				450B163B1ED8A918002B283C /* Assets.xcassets in Resources */,
 				450B16391ED8A918002B283C /* Main.storyboard in Resources */,
