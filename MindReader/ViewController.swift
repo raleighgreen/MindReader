@@ -64,7 +64,7 @@ class ViewController: UIViewController {
             
         } else if questionNo == 7 {
             
-            // Check if the user has provided the inpur, tell the user
+            // Check if the user has provided the input, tell the user
             // what he/she thought. If user hasn't provided input, provide an alert.
             
             if answerTextField.text != "" {
